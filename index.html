@@ -4,17 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aslamtu: Prayer Times &amp; Azan</title>
+<meta name="description" content="Aslamtu is a prayer times and Azan app. No ads. Nothing collected. Free. Now in testing.">
+<meta name="theme-color" content="#073B37">
 <style>
+  * { box-sizing: border-box; }
   body { font-family: Georgia, 'Times New Roman', serif; background: #073B37; color: #FFF2DE;
-         margin: 0; padding: 64px 20px; text-align: center; line-height: 1.6; }
-  h1 { font-size: 34px; font-weight: 600; margin-bottom: 6px; }
-  p { color: #D5B48B; font-size: 18px; }
-  a { color: #E8C08B; }
+         margin: 0; padding: 56px 20px 48px; text-align: center; line-height: 1.6; }
+  main { max-width: 620px; margin: 0 auto; }
+  .icon { width: 120px; height: 120px; border-radius: 26px; box-shadow: 0 8px 30px rgba(0,0,0,0.35); }
+  .wordmark { display: block; width: min(300px, 78vw); height: auto; margin: 26px auto 2px; }
+  h1 { font-size: 30px; font-weight: 600; margin: 10px 0 2px; letter-spacing: 0.4px; }
+  .sub { color: #D5B48B; font-size: 17px; letter-spacing: 2.5px; text-transform: uppercase; margin: 0 0 22px; }
+  .pill { display: inline-block; border: 1px solid #D4AF6A; color: #E8C08B; border-radius: 999px;
+          padding: 4px 16px 5px; font-size: 14.5px; letter-spacing: 1.2px; margin-bottom: 26px; }
+  .line { font-size: 20px; font-style: italic; color: #FFF2DE; margin: 0 0 20px; }
+  p { font-size: 17px; color: rgba(255,242,222,0.92); margin: 0 0 16px; }
+  .values { color: #E8C08B; font-size: 16.5px; letter-spacing: 0.4px; margin: 22px 0 6px; }
+  .links { margin: 30px 0 8px; }
+  .links a { display: inline-block; margin: 4px 6px; padding: 9px 20px; border: 1px solid rgba(212,175,106,0.65);
+             border-radius: 999px; color: #FFF2DE; text-decoration: none; font-size: 15.5px; }
+  .links a:hover { background: rgba(212,175,106,0.14); }
+  footer { margin-top: 40px; font-size: 14px; color: rgba(255,242,222,0.55); }
+  footer a { color: rgba(232,192,139,0.85); }
 </style>
 </head>
 <body>
+<main>
+  <img class="icon" src="assets/icon-512.png" alt="Aslamtu app icon" width="120" height="120">
+  <img class="wordmark" src="assets/wordmark-calligraphy.png" alt="Aslamtu, written in calligraphy">
   <h1>Aslamtu</h1>
-  <p>The call comes five times a day. This is your answer.</p>
-  <p><a href="privacy.html">Privacy Policy</a></p>
+  <p class="sub">Prayer Times &amp; Azan</p>
+  <div><span class="pill">Now in testing</span></div>
+  <p class="line">The call comes five times a day. This is your answer.</p>
+  <p>Aslamtu is a prayer times and Azan app, being built with one aim: to do this one job well, and to do it honestly.</p>
+  <p class="values">No ads · Nothing collected · Free</p>
+  <p>It is in testing now, with kind volunteers in several countries checking the prayer times for their own cities. When it is ready, it will open for everyone, in shaa Allah.</p>
+  <div class="links">
+    <a href="https://www.facebook.com/aslamtuapp">Follow on Facebook</a>
+    <a href="https://www.instagram.com/aslamtu.app">Follow on Instagram</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+  <footer>aslamtu.app</footer>
+</main>
 </body>
 </html>
